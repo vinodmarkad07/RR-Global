@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f5f7fa;
+  --primary: #0b2545;
+  --secondary: #2e86de;
+  --accent: #ff7a00;
+  --text: #1f2937;
+  --card: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
